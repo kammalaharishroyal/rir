@@ -76,3 +76,18 @@ body {
     justify-content: end;
     margin-right: 100px;
   }
+
+  .price-container {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4caf50; /* Green color */
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery - Order Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .offer-info {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #ff6347; /* Tomato color */
+        }
+
+        .upload-section {
+            margin-top: 20px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Food Delivery Service</h1>
+    </header>
+
+    <main>
+        <h2>Place Your Order</h2>
+        <form action="#" method="post">
+            <label for="food-item">Cost Item:300</label>
+            <label for="food-item">Select Food Item:</label>
+            <select id="food-item" name="food-item" required>
+                <option value="burger">Biryani</option>
+                
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <label for="delivery-address">Delivery Address:</label>
+            <input type="text" id="delivery-address" name="delivery-address" required>
+
+           
+
+            <p class="offer-info">Special Offer: Buy 1 Get 1 free if ordered on Saturday!</p>
+
+            <div class="upload-section">
+                <label for="payment-screenshot">Upload Payment Screenshot:</label>
+                <input type="file" id="payment-screenshot" name="payment-screenshot" accept="image/*">
+            </div>
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+</body>
+</html>
