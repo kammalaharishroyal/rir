@@ -1,9 +1,10 @@
+import './Hom.css'
 function Home1(){
     return (
         <div>
 
 
-  <header>
+  <header className='header'>
     <h1>RIR Biryani</h1>
 
   </header>
