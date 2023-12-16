@@ -5,7 +5,7 @@ import Home1 from './rirprojectcomponents/Home1';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header1">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
