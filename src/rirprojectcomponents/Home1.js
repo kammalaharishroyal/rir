@@ -1,4 +1,6 @@
-import './Hom.css'
+import './Hom.css';
+import biryani1 from './Images/biryani1.jpg';
+import biryani2 from './Images/biryani2.jpg';
 function Home1(){
     return (
         <div>
@@ -21,8 +23,8 @@ function Home1(){
   <section class="biryanis-section">
     <h2>Our Biryani Selection</h2>
     <div class="biryani-grid">
-      <img src="biryani1.jpg" alt="Biryani 1"/>
-      <img src="biryani2.jpg" alt="Biryani 2"/>
+      <img src={biryani1} alt="Biryani 1"/>
+      <img src={biryani2} alt="Biryani 2"/>
 
     </div>
   </section>
