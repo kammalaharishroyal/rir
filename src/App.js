@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Home1 from './rirprojectcomponents/Home1';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-       <h1>Harish</h1>
+       <Home1/>
         <a
           className="App-link"
           href="https://reactjs.org"
