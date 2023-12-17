@@ -4,6 +4,7 @@ import Home1 from './rirprojectcomponents/Home1';
 import Order from './rirprojectcomponents/Order';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './rirprojectcomponents/Header';
+import Contact from './rirprojectcomponents/Contact'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <Routes>
        <Route path="/" element={<Home1/>}/>
        <Route path="/order" element={<Order/>}/>
+       <Route path="/contact" element={<Contact/>}/>
        </Routes>
        </BrowserRouter>
    

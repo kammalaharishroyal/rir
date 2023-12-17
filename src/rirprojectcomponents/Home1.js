@@ -9,7 +9,7 @@ function Home1() {
 
 
 
-
+<div class="button1"><button type="submit" class="order-button"><Link to={'contact'}>Contact</Link></button></div>
             <div class="button1"><button type="submit" class="order-button"><Link to={'order'}>Order Now</Link></button></div>
 
 
