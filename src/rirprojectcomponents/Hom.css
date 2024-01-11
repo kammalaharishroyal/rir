@@ -98,8 +98,10 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 30px;
-  
- 
- 
- 
+}
+.spoon_img{
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  margin-left: 40px;
 }

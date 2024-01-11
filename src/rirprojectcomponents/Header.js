@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import spoon_img from './Images/spoon_logo.jpeg';
 
 function Header(){
     return(
@@ -6,6 +7,7 @@ function Header(){
 
         <header className='header'>
         <h1>RIR Home Foods</h1>
+        <img src={spoon_img} className="spoon_img" />
         
 
          </header>
