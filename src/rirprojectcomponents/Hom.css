@@ -105,3 +105,9 @@ body {
   border-radius: 35px;
   margin-left: 40px;
 }
+
+.food-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}

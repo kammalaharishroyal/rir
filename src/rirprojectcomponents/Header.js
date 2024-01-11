@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import spoon_img from './Images/spoon_logo.jpeg';
+import FoodItem from "./Foodcompo";
 
 function Header(){
     return(
@@ -17,6 +18,20 @@ function Header(){
          <h2>About</h2>
          
          </nav>
+         <div className="food-items" >
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+
+         </div>
+         
          </>
     )
 }
