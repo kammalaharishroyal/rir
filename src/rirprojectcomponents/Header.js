@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import spoon_img from './Images/spoon_logo.jpeg';
 import FoodItem from "./Foodcompo";
+import foodimg1 from './Images/biryani1.jpg'
 
 function Header(){
     return(
@@ -19,16 +20,16 @@ function Header(){
          
          </nav>
          <div className="food-items" >
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
-         <FoodItem name="Burger" price={10.99} imageUrl={spoon_img} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
+         <FoodItem name="Burger" price={10.99} imageUrl={foodimg1} />
 
          </div>
          
