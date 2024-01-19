@@ -1,0 +1,21 @@
+.homeheaderlayout-tittle{
+    background-color: rgb(4, 4, 116);
+    color: #ffffff;
+    padding: 1rem;
+    display: flex;
+   justify-content: center;
+   border-width: 10px;
+}
+.homeheaderlayout-nav-bar{
+    background-color:aqua;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+   
+}
+button{
+   
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './Hom.css';
 import biryani1 from './Images/biryani1.jpg';
 import biryani2 from './Images/biryani2.jpg';
@@ -9,7 +9,9 @@ function Home1() {
 
 
 
-<div class="button1"><button type="submit" class="order-button"><Link to={'contact'}>Contact</Link></button></div>
+<div class="button1">
+    <button type="submit" class="order-button"><Link to={'contact'}>Contact</Link></button>
+    </div>
             <div class="button1"><button type="submit" class="order-button"><Link to={'order'}>Order Now</Link></button></div>
 
 
@@ -41,6 +43,7 @@ function Home1() {
             </section>
 
             <script src="script.js"></script>
+            <Outlet/>
         </div>
     )
 }

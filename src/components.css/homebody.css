@@ -1,0 +1,50 @@
+/* src/components/FoodDeliveryBody.css */
+
+.food-delivery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+img{
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+  margin-left: 40px;
+}
+
+.food-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  max-width: 250px;
+}
+
+.food-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.food-details {
+  text-align: center;
+}
+
+.add-to-cart-btn,
+.buy-now-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+  background-color: #45a049;
+}
