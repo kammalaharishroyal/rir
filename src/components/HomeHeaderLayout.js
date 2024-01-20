@@ -5,7 +5,7 @@ import spoon from "../Images/spoon_logo.jpeg";
 function HomeHeaderLayout(){
     return(
         <>
-        <div className="homeheaderlayout-tittle"><h1>RIR HOME FOODS</h1> <img src={spoon}/></div>
+        <div className="homeheaderlayout-tittle"><h1>RIR HOME FOODS</h1> <img src={spoon} className="header-img"/></div>
        <div className="homeheaderlayout-nav-bar">
        <Link to='/'><button>Home</button></Link>
         <Link to='orders'><button>Orders</button></Link>
