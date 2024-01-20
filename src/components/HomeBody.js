@@ -1,6 +1,7 @@
 import pizza from '../Images/pizza.jpeg'
 import React, { useState } from 'react';
 import "../components.css/homebody.css";
+import CartComponent from './CartComponent';
 
 function HomeBody () {
     const [cart, setCart] = useState([]);
@@ -57,6 +58,13 @@ function HomeBody () {
           </div>
         </div>
       ))}
+      <br/>
+      <h1>Cart</h1>
+     {
+     cart.length==0?<h2>Cart is empty</h2>: cart.map((x)=>
+     <CartComponent  image={pizza} price={x.price} quantity={x.quantity} productId={x.price} productName={x.name}/>
+   )
+     }
     </div>
   );
 };
