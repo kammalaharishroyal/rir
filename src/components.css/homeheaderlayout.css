@@ -13,11 +13,13 @@
     margin-top: -20px;
    
 }
-button{
+.button{
    
     padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+    margin: 3px;
+    color:blue;
+    font-weight: 1000;
+   
 }
 .header-img{
   height: 70px;

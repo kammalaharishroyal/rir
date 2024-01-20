@@ -7,12 +7,12 @@ function HomeHeaderLayout(){
         <>
         <div className="homeheaderlayout-tittle"><h1>RIR HOME FOODS</h1> <img src={spoon} className="header-img"/></div>
        <div className="homeheaderlayout-nav-bar">
-       <Link to='/'><button>Home</button></Link>
-        <Link to='orders'><button>Orders</button></Link>
-        <Link to='cart'><button>Cart</button></Link>
-        <Link to='register'><button>Register</button></Link>
-        <Link to='login'><button>Login</button></Link>
-        <Link to='contact'><button>Contact</button></Link>
+       <Link to='/'><p className="button">Home</p></Link>
+        <Link to='orders'><p className="button">Orders</p></Link>
+        <Link to='cart'><p className="button">Cart</p></Link>
+        <Link to='register'><p className="button">Register</p></Link>
+        <Link to='login'><p className="button">Login</p></Link>
+        <Link to='contact'><p className="button">Contact</p></Link>
        </div>
         
       
