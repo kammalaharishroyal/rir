@@ -6,7 +6,7 @@ function Register() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    password: '',
+    mobile: '',
   });
 
   const handleChange = (e) => {
@@ -16,13 +16,19 @@ function Register() {
       [name]: value,
     });
   };
+ 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your registration logic here
-    console.log('Form submitted with data:', formData);
-    // You can send the form data to your server for processing or perform other actions.
-  };
+  function handleSubmit () {
+    fetch('http://localhost:8080/register/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+        .then(response => response.json())
+       
+    };
 
   return (
     <div>
@@ -52,11 +58,11 @@ function Register() {
           />
         </div>
         <div>
-          <label htmlFor="password">Password:</label>
+          <label htmlFor="mobile">Mobile:</label>
           <input
-            type="password"
+            type="number"
             id="password"
-            name="password"
+            name="mobile"
             value={formData.password}
             onChange={handleChange}
             required
@@ -66,6 +72,7 @@ function Register() {
           <button type="submit">Register</button>
         </div>
       </form>
+     
     </div>
   );
 };

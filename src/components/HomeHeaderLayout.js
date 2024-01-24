@@ -15,9 +15,6 @@ function HomeHeaderLayout(){
         <Link to='contact'><button>Contact</button></Link>
        </div>
         
-      
-
-        
         <Outlet/>
         
         </>
