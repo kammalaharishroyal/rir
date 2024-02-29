@@ -44,6 +44,9 @@ function Register() {
             value={formData.name}
             onChange={handleChange}
             required
+            placeholder="Name"
+            autoFocus
+            autoComplete="of"
           />
         </div>
         <div>
@@ -55,17 +58,19 @@ function Register() {
             value={formData.email}
             onChange={handleChange}
             required
+            placeholder="Email"
           />
         </div>
         <div>
           <label htmlFor="mobile">Mobile:</label>
           <input
-            type="number"
+            type="tel"
             id="password"
             name="mobile"
             value={formData.password}
             onChange={handleChange}
             required
+            placeholder="Mobile"
           />
         </div>
         <div>

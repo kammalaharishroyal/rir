@@ -15,7 +15,9 @@
   padding: 15px;
   max-width: 250px;
 }
-
+.food-item:hover{
+  box-shadow: 1px 1px 10px 1px grey;
+}
 .food-image {
   width: 100%;
   max-height: 150px;

@@ -39,6 +39,7 @@ function Cart()  {
   return (
     <div>
       <h1 >Cart</h1>
+      <button >Pay</button>
       {
         data.map(x=>
             <CartComponent key={x.cartId}  image={img} price={x.price} quantity={0}  productId={x.pid} productName={x.name}/>

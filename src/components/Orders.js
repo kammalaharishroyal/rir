@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import img from "../Images/pizza.jpeg";
-import CartComponent from './CartComponent';
+import OrderComponent from './OrderComponent';
+import '../components.css/order.css';
 function Orders()  {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -37,12 +38,12 @@ function Orders()  {
 
   // Render your component with the fetched data
   return (
-    <div>
-      <h1 >Your Orders:</h1>
+    <div className='orders'>
+      <h1 ><ins>Your Orders:</ins></h1>
       
       { 
         data.map(x=>
-            <CartComponent key={x.orderId} image={img} price={x.price} quantity={x.quantity} productId="123" productName={x.name}/>
+            <OrderComponent key={x.orderId} image={img} price={x.price} quantity={x.quantity} productId="123" productName={x.name}/>
         )
       }
      

@@ -8,7 +8,18 @@
     text-align: center;
     display: flex;
     justify-content: center;    
+    border: 1px solid;
+    transition: transform;
+    transition-duration: 1s;
     
+  }
+  .order:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px grey;
+    border-radius: 10px;
+    border: 1px solid;
+    transform: scaleZ(1.5px);
+
   }
   
   .order img {
@@ -29,9 +40,15 @@
   
 .image{
     width: 30%;
-   
+   border-radius:10px 0px 0px 10px;
+   margin-left: 1%;
 }
 .details{
     width: 70%;
+    
   
+}
+.details table{
+  margin-left: 30%;
+  text-align: justify;
 }

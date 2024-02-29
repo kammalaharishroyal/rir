@@ -10,7 +10,9 @@
   justify-content: center;    
   
 }
-
+.orders h1{
+  text-align: center;
+}
 .order img {
   max-width: 100%;
   height: auto;

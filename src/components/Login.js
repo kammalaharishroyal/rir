@@ -34,6 +34,9 @@ function Login () {
             value={formData.email}
             onChange={handleChange}
             required
+            placeholder='Enter Your mail id'
+            autoFocus
+            autoComplete=''
           />
         </div>
         <div>
@@ -45,6 +48,7 @@ function Login () {
             value={formData.password}
             onChange={handleChange}
             required
+            placeholder='Enter Password'
           />
         </div>
         <div>
